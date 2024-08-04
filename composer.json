@@ -1,0 +1,20 @@
+{
+    "name": "avinmedia/arvancloud-apis",
+    "description": "A package to managin and using arvancloud apis",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avinmedia\\ArvancloudApis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AvinBackend",
+            "email": "avinbackend@gmail.com"
+        }
+    ]
+}
